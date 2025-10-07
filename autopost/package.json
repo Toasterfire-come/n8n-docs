@@ -1,0 +1,19 @@
+{
+  "name": "autopost",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "post:x": "node src/post-x.js",
+    "post:linkedin": "node src/post-linkedin.js",
+    "post": "node src/cli.js",
+    "login:x": "node scripts/save-cookies-x.js",
+    "login:linkedin": "node scripts/save-cookies-linkedin.js"
+  },
+  "dependencies": {
+    "puppeteer": "22.13.1",
+    "yargs": "17.7.2",
+    "data-uri-to-buffer": "6.0.2"
+  }
+}
